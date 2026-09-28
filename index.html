@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Heights Café Revesby Heights | Official Website</title>
+    <!-- Tailwind CSS Integration for Minimalist Style -->
+    <script src="https://tailwindcss.com"></script>
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .serif-title { font-family: 'Playfair Display', serif; }
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-[#F4F7F5] text-[#1E293B] antialiased">
+
+    <!-- NAVIGATION -->
+    <nav class="sticky top-0 z-50 bg-[#F4F7F5]/90 backdrop-blur-md border-b border-emerald-900/10">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-medium tracking-widest uppercase text-[#0F3D3E]">The Heights Café</a>
+            <div class="hidden md:flex space-x-8 text-sm font-medium tracking-wide text-slate-600">
+                <a href="#about" class="hover:text-[#0F3D3E] transition">Our Story</a>
+                <a href="#menu" class="hover:text-[#0F3D3E] transition">Menu</a>
+                <a href="#booking" class="hover:text-[#100F3D] transition">Reservation</a>
+                <a href="#contact" class="hover:text-[#0F3D3E] transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="relative min-h-[80vh] flex items-center bg-[#E1EAE5] px-6 overflow-hidden">
+        <!-- Minimalist Bamboo Leaf Line-Art Pattern -->
+        <div class="absolute right-0 bottom-0 top-0 w-1/2 opacity-10 pointer-events-none flex items-center justify-center">
+            <svg viewBox="0 0 100 100" class="w-full h-full stroke-emerald-800 fill-none" stroke-width="0.5">
+                <path d="M10,90 Q40,40 80,10 M40,50 Q60,45 85,30 M50,42 Q70,40 90,35" />
+                <path d="M5,95 Q35,45 75,15 M35,55 Q55,50 80,35" />
+            </svg>
+        </div>
+
+        <div class="relative max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center w-full">
+            <div>
+                <p class="text-xs uppercase tracking-[0.3em] text-emerald-800 font-medium mb-4">Heighten your taste buds</p>
+                <h1 class="text-4xl md:text-5xl font-light tracking-tight leading-tight mb-6 text-[#0F3D3E]">
+                    Serene like <span class="serif-title italic text-[#100F3D]">bamboo</span>,<br>
+                    Elegant like <span class="serif-title italic text-[#100F3D]">lotus</span>.
+                </h1>
+                <p class="text-slate-600 max-w-md mb-8 font-light leading-relaxed">
+                    Welcome to **The Heights Café** in Revesby Heights. Experience a modern minimalist space intertwined with the subtle, rustic charm of Eastern culture.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="#menu" class="inline-block bg-[#0F3D3E] text-white text-xs uppercase tracking-widest px-6 py-4 hover:bg-emerald-900 transition">
+                        Explore Menu
+                    </a>
+                    <a href="#booking" class="inline-block bg-[#100F3D] text-white text-xs uppercase tracking-widest px-6 py-4 hover:bg-blue-900 transition">
+                        Book A Table
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Hero Image Wrapper -->
+            <div class="relative aspect-[4/3] bg-slate-200 hidden md:block border border-emerald-950/10 shadow-sm overflow-hidden">
+                <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://unsplash.com');"></div>
+                <div class="absolute bottom-4 left-4 w-16 h-16 bg-white/80 p-2 backdrop-blur-sm rounded-sm">
+                    <svg viewBox="0 0 100 100" class="w-full h-full stroke-[#100F3D] fill-none" stroke-width="1.5">
+                        <path d="M50,90 C40,70 30,60 30,45 C30,30 40,20 50,15 C60,20 70,30 70,45 C70,60 60,70 50,90 Z" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-16 items-center">
+        <div>
+            <h2 class="text-xs uppercase tracking-[0.3em] text-emerald-800 font-medium mb-4">Our Story</h2>
+            <h3 class="text-2xl md:text-3xl font-light mb-6 tracking-tight text-[#100F3D]">A Sanctuary for the Senses</h3>
+            <p class="text-slate-600 font-light leading-relaxed mb-4">
+                Designed with a modern minimalist aesthetic and a soothing green-blue color palette, **The Heights Café** offers a peaceful haven to enjoy premium specialty coffee and an exquisite, contemporary Asian-Western fusion menu.
+            </p>
+            <div class="mt-6 p-4 border-l-2 border-[#0F3D3E] bg-emerald-50/50 text-xs text-slate-500 italic">
+                * Note: Public holiday surcharge 15% applies. Peak hours may incur a slightly longer wait. Thank you for your patience.
+            </div>
+        </div>
+        <div class="bg-cover bg-center aspect-[4/3] border border-gray-200" style="background-image: url('https://unsplash.com');"></div>
+    </section>
+
+    <!-- MENU SECTION -->
+    <section id="menu" class="bg-white py-20 border-y border-emerald-900/5">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-xs uppercase tracking-[0.3em] text-emerald-800 font-medium mb-2">The Heights Menu</h2>
+                <h3 class="text-3xl font-light tracking-tight text-[#0F3D3E]">All-Day Premium Selection</h3>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-x-16 gap-y-12">
+                <!-- COLUMN 1: BREAKFAST & LUNCH -->
+                <div>
+                    <h4 class="text-xs uppercase tracking-widest font-semibold text-emerald-800 border-b border-emerald-100 pb-2 mb-6 flex justify-between items-center">
+                        <span>Breakfast & Lunch Favourites</span>
+                        <span class="w-1.5 h-1.5 bg-emerald-600 rounded-full"></span>
+                    </h4>
+                    <div class="space-y-6">
+                        <div class="flex justify-between items-baseline">
+                            <div>
+                                <h5 class="text-sm font-medium">Brekkie Wrap / Bun</h5>
+                                <p class="text-xs text-slate-400 font-light mt-1">Crispy bacon, eggs, baby spinach, caramelised onion, hash brown, BBQ & Aioli</p>
+                            </div>
+                            <span class="text-sm font-medium text-slate-700">$19</span>
+                        </div>
+                        <div class="flex justify-between items-baseline">
+                            <div>
+                                <h5 class="text-sm font-medium">Smashed Avo On Toast</h5>
+                                <p class="text-xs text-slate-400 font-light mt-1">Two poached eggs, smashed avocado, cherry tomatoes, beetroot hummus, feta, balsamic glaze</p>
+                            </div>
+                            <span class="text-sm font-medium text-slate-700">$24</span>
+                        </div>
+                        <div class="flex justify-between items-baseline">
+                            <div>
+                                <h5 class="text-sm font-medium">Premium Steak Sanga</h5>
+                                <p class="text-xs text-slate-400 font-light mt-1">150g Scotch Fillet steak, caramelised onions, Swiss cheese, lettuce, tomato, BBQ & aioli with chips</p>
+                            </div>
+                            <span class="text-sm font-medium text-slate-700">$25</span>
+                        </div>
+                        <div class="flex justify-between items-baseline">
+                            <div>
+                                <h5 class="text-sm font-medium">Aussie Wagyu Burger</h5>
+                                <p class="text-xs text-slate-400 font-light mt-1">150g Australian Wagyu patty, bacon, egg, Swiss cheese, lettuce, tomato, onions with chips</p>
+                            </div>
+                            <span class="text-sm font-medium text-slate-700">$26</span>
+                        </div>
+                    </div>
+
+                    <!-- SUB-CATEGORY: ELEVATE ASIAN -->
+                    <h4 class="text-xs uppercase tracking-widest font-semibold text-emerald-800 border-b border-emerald-100 pb-2 mb-6 mt-10 flex justify-between items-center">
+                        <span>Elevate Asian (From 10AM)</span>
+                        <span class="w-1.5 h-1.5 bg-emerald-600 rounded-full"></span>
+                    </h4>
+                    <div class="space-y-6">
+                        <div class="flex justify-between items-baseline">
+                            <div>
+                                <h5 class="text-sm font-medium">Traditional Pho Wagyu Beef MS9+</h5>
+                                <p class="text-xs text-slate-400 font-light mt-1">Premium Wagyu beef, 12-hour hầm xương aromatic broth with onion and shallots</p>
+                            </div>
+                            <span class="text-sm font-medium text-slate-700">$26</span>
+                        </div>
+                        <div class="flex justify-between items-baseline">
+                            <div>
+                                <h5 class="text-sm font-medium">Vermicelli Salad</h5>
+                    <h4 class="text-xs uppercase tracking-widest font-semibold text-blue-900 border-b border-blue-100 pb-2 mb-6 mt-10 flex justify-between items-center">
+                        <span>Speciality Coffee & Cold Drinks</span>
+                        <span class="w-1.5 h-1.5 bg-[#100F3D] rounded-full"></span>
+                    </h4>
+                    <div class="space-y-6">
+                        <div class="flex justify-between items-baseline">
+                            <div>
+                                <h5 class="text-sm font-medium">Espresso / Piccolo / Macchiato</h5>
+                                <p class="text-xs text-slate-400 font-light mt-1">Bold and precisely extracted specialty roast</p>
+                            </div>
+                            <span class="text-sm font-medium text-slate-700">$5.0</span>
+                        </div>
+                        <div class="flex justify-between items-baseline">
+                            <div>
+                                <h5 class="text-sm font-medium">Latte / Flat White / Cappuccino</h5>
+                                <p class="text-xs text-slate-400 font-light mt-1">Silky and perfectly balanced milk coffee (Size S / L)</p>
+                            </div>
+                            <span class="text-sm font-medium text-slate-700">$5.5 / $6.5</span>
+                        </div>
+                        <div class="flex justify-between items-baseline">
+                            <div>
+                                <h5 class="text-sm font-medium">Vietnamese Iced Coffee</h5>
+                                <p class="text-xs text-slate-400 font-light mt-1">Our signature bold brew with condensed milk over ice</p>
+                            </div>
+                            <span class="text-sm font-medium text-slate-700">$10.0</span>
+                        </div>
+                        <div class="flex justify-between items-baseline">
+                            <div>
+                                <h5 class="text-sm font-medium">Coconut Cream Matcha</h5>
+                                <p class="text-xs text-slate-400 font-light mt-1">Premium matcha layered with rich coconut cream foam</p>
+                            </div>
+                            <span class="text-sm font-medium text-slate-700">$10.0</span>
+                        </div>
+                    </div>
+
+                    <h4 class="text-xs uppercase tracking-widest font-semibold text-blue-900 border-b border-blue-100 pb-2 mb-6 mt-10 flex justify-between items-center">
+                        <span>Premium Dessert (All Day)</span>
+                        <span class="w-1.5 h-1.5 bg-[#100F3D] rounded-full"></span>
+                    </h4>
+                    <div class="space-y-6">
+                        <div class="flex justify-between items-baseline">
+                            <div>
+                                <h5 class="text-sm font-medium">Island Way Real Fruit Sorbet Duet</h5>
+                                <p class="text-xs text-slate-400 font-light mt-1">Two handcrafted premium sorbet shells served directly in authentic fruit crusts</p>
+                            </div>
+                            <span class="text-sm font-medium text-slate-700">$17</span>
+                        </div>
+                        <div class="flex justify-between items-baseline">
+                            <div>
+                                <h5 class="text-sm font-medium">Mango Sticky Rice Supreme</h5>
+                                <p class="text-xs text-slate-400 font-light mt-1">Warm sweet coconut sticky rice paired with succulent Thai mango and vanilla ice cream</p>
+                            </div>
+                            <span class="text-sm font-medium text-slate-700">$18</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <p class="text-center text-xs text-slate-400 mt-12 italic">Please inform our staff if you have any allergy before ordering.</p>
+        </div>
+    </section>
+
+    <!-- RESERVATION SECTION -->
+    <section id="booking" class="max-w-xl mx-auto px-6 py-20 text-center">
+        <div class="w-10 h-10 mx-auto mb-4 opacity-40">
+            <svg viewBox="0 0 100 100" class="w-full h-full stroke-[#100F3D] fill-none" stroke-width="1.5">
+                <path d="M50,85 C30,70 20,45 50,20 C80,45 70,70 50,85 Z" />
+            </svg>
+        </div>
+        <h2 class="text-xs uppercase tracking-[0.3em] text-emerald-800 font-medium mb-2">Reservation</h2>
+        <h3 class="text-2xl font-light tracking-tight mb-8 text-[#100F3D]">Book A Table</h3>
+        <form class="space-y-4 text-left bg-white p-8 border border-emerald-900/5 shadow-sm">
+            <div>
+                <label class="block text-xs uppercase tracking-wider text-slate-500 mb-1">Your Name</label>
+                <input type="text" class="w-full bg-[#F4F7F5] border border-slate-200 px-4 py-3 text-sm focus:outline-none focus:border-[#0F3D3E] transition" placeholder="e.g. Alex Nguyen">
+            </div>
+            <div class="grid grid-cols-2 gap-4">
+                <div>
+                    <label class="block text-xs uppercase tracking-wider text-slate-500 mb-1">Phone Number</label>
+                    <input type="tel" class="w-full bg-[#F4F7F5] border border-slate-200 px-4 py-3 text-sm focus:outline-none focus:border-[#0F3D3E] transition" placeholder="04xx xxx xxx">
+                </div>
+                <div>
+                    <label class="block text-xs uppercase tracking-wider text-slate-500 mb-1">Guests</label>
+                    <select class="w-full bg-[#F4F7F5] border border-slate-200 px-4 py-3 text-sm focus:outline-none focus:border-[#0F3D3E] transition">
+                        <option>1 Person</option>
+                        <option selected>2 People</option>
+                        <option>3 - 4 People</option>
+                        <option>Group of 4+</option>
+                    </select>
+                </div>
+            </div>
+            <button type="button" onclick="alert('Thank you! Your table request at The Heights Café has been received. We will contact you shortly.')" class="w-full bg-[#0F3D3E] text-white text-xs uppercase tracking-widest py-4 mt-2 hover:bg-emerald-900 transition">
+                Confirm Reservation
+            </button>
+        </form>
+    </section>
+
+    <!-- FOOTER & CONTACT SECTION -->
+    <footer id="contact" class="bg-[#0A221E] text-white py-16 px-6 text-sm font-light relative">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-12 border-b border-emerald-900 pb-12">
+            <div>
+                <h4 class="text-xs uppercase tracking-[0.2em] text-emerald-400 font-medium mb-4">Our Location</h4>
+                <p class="text-emerald-100/80 leading-relaxed">
+                    134-138 Centaur St, Revesby Heights<br>
+                    2212 NSW, Australia
+                </p>
+            </div>
+            <div>
+                <h4 class="text-xs uppercase tracking-[0.2em] text-emerald-400 font-medium mb-4">Opening Hours (7 Days)</h4>
+                <p class="text-emerald-100/80 leading-relaxed">
+                    Mon - Fri: 7:00 AM - 3:00 PM<br>
+                    Sat - Sun: 8:00 AM - 3:00 PM
+                </p>
+            </div>
+            <div>
+                <h4 class="text-xs uppercase tracking-[0.2em] text-emerald-400 font-medium mb-4">Contact Info</h4>
+                <p class="text-emerald-100/80 mb-1">Phone: (02) 9792 1989</p>
+                <p class="text-emerald-100/80 mb-1">Email: theheightscafe88@gmail.com</p>
+                <p class="text-emerald-100/80">Website: ://heightscafe.com.au</p>
+            </div>
+        </div>
+        <div class="max-w-6xl mx-auto pt-8 flex justify-between items-center text-xs text-emerald-600">
+            <p>&copy; 2026 The Heights Café. All rights reserved.</p>
+            <p class="tracking-widest uppercase text-[10px] text-blue-400/60">Lotus & Bamboo Concept</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
